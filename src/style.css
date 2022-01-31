@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* *::after *::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.login-page {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.main {
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38")
+    no-repeat center/ cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+.chk {
+  display: none;
+}
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.login-page label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.login-page input {
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.login-page button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.login-page button:hover {
+  background: #6d44b8;
+}
+.group-page {
+  display: grid;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-template-rows: 30% 5% 50%;
+  gap: 40px 40px;
+  grid-template-areas:
+    "main1 main2 main3 main4"
+    "main5 main5 main5 main5"
+    "main6 main6 main6 main6";
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  color: white;
+  font-size: 25px;
+}
+.main1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "mm . ."
+    ". . ."
+    ". . .";
+  grid-area: main1;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #141414;
+  box-shadow: 0 0 15px #0f0f0f;
+
+  overflow: hidden;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(53, 53, 54, 1) 35%,
+    rgba(32, 32, 32, 1) 100%
+  );
+  box-shadow: 0 0 35px #0f0f0f;
+  padding: 10px;
+}
+.mm {
+  grid-area: mm;
+}
+.main2 {
+  grid-area: main2;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #141414;
+  box-shadow: 0 0 15px #0f0f0f;
+
+  overflow: hidden;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(53, 53, 54, 1) 35%,
+    rgba(32, 32, 32, 1) 100%
+  );
+  box-shadow: 0 0 35px #0f0f0f;
+  padding: 10px;
+}
+.main3 {
+  grid-area: main3;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #141414;
+  box-shadow: 0 0 15px #0f0f0f;
+
+  overflow: hidden;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(53, 53, 54, 1) 35%,
+    rgba(32, 32, 32, 1) 100%
+  );
+  box-shadow: 0 0 35px #0f0f0f;
+  padding: 10px;
+}
+.main4 {
+  grid-area: main4;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #141414;
+  box-shadow: 0 0 15px #0f0f0f;
+
+  overflow: hidden;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(53, 53, 54, 1) 35%,
+    rgba(32, 32, 32, 1) 100%
+  );
+  box-shadow: 0 0 35px #0f0f0f;
+  padding: 10px;
+}
+.main5 {
+  grid-area: main5;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px #0f0f0f;
+  overflow: hidden;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(53, 53, 54, 1) 35%,
+    rgba(32, 32, 32, 1) 100%
+  );
+  box-shadow: 0 0 35px #0f0f0f;
+}
+.main6 {
+  grid-area: main6;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px #0f0f0f;
+  overflow: hidden;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(53, 53, 54, 1) 35%,
+    rgba(32, 32, 32, 1) 100%
+  );
+  box-shadow: 0 0 35px #0f0f0f;
+}
+.group-page a:link,
+.group-page a:visited {
+  color: rgb(236, 190, 40);
+  padding: 10px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.group-page a:hover {
+  background-color: rgb(80, 79, 79);
+}
+@media (max-width: 768px) {
+  .wrapper {
+    display: grid;
+    margin-top: 20px;
+    font-size: 15px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 5% 50%;
+    gap: 30px;
+    grid-template-areas:
+      "main1 main2"
+      "main3 main4"
+      "main5 main5"
+      "main6 main6";
+    justify-content: space-around;
+    align-content: start;
+    justify-items: stretch;
+    align-items: start;
+    width: 95%;
+    height: 95%;
+    font-size: 23px;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper {
+    display: grid;
+    margin: auto;
+    font-size: 15px;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30% 30% 5% 95%;
+    gap: 15px 5px;
+    grid-template-areas:
+      "main1"
+      "main2"
+      "main3"
+      "main4"
+      "main5"
+      "main6";
+    justify-content: center;
+    align-content: stretch;
+    justify-items: stretch;
+    align-items: start;
+    width: 95%;
+    height: 95%;
+    font-size: 23px;
+  }
+  .main1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "mm . ."
+      ". . ."
+      ". . .";
+    grid-area: main1;
+    width: 100%;
+    height: 100%;
+  }
+  .mm {
+    grid-area: mm;
+  }
+  .main2 {
+    grid-area: main2;
+    width: 100%;
+    height: 100%;
+  }
+  .main3 {
+    grid-area: main3;
+    width: 100%;
+    height: 100%;
+  }
+  .main4 {
+    grid-area: main4;
+    width: 100%;
+    height: 100%;
+  }
+  .main5 {
+    grid-area: main5;
+    width: 100%;
+    height: 100%;
+  }
+  .main6 {
+    grid-area: main6;
+    width: 100%;
+    height: 100%;
+  }
+}
