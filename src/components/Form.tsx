@@ -10,7 +10,8 @@ export default function Form() {
               login: login,
               pass: psw,
             })
-        }; };
+        }); 
+    };
     return (
         <section className="login-page">
             <div className="main">
